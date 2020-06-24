@@ -27,6 +27,7 @@ public class ChildClass extends ParentClass
 	}
 	public static void main(String[] args) 
 	{
+		@SuppressWarnings("unused")
 		ChildClass obj = new ChildClass(1,2);
 	}
 
