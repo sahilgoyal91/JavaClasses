@@ -5,8 +5,8 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
-
 public class ReadFileRange 
+
 {
 	public void ReadData(int a , int b) throws IOException
 	{

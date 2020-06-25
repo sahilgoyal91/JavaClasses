@@ -46,7 +46,5 @@ public class WriteDataRange
 		wd.writeData(a, b);
 		
 		sc.close();
-
 	}
-
 }
