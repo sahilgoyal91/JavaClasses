@@ -24,7 +24,7 @@ public class YoutubeVideo
 		Actions ac = new Actions(driver);
 		ac.keyDown(Keys.COMMAND).click(videos.get(0)).keyUp(Keys.COMMAND).build().perform();
 		
-		String current_window = driver.getWindowHandle();
+		//String current_window = driver.getWindowHandle();
 		Set<String> allwindows = driver.getWindowHandles();
 		
 		for(String s : allwindows)
